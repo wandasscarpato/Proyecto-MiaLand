@@ -1,23 +1,18 @@
-import logo from './mia.svg';
 import './App.css';
+//Components
+import "./components/Header";
+import Header from "./components/Header";
+
+import "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p className="miaLand">
-          PROXIMAMENTE: MIALAND
-        </p>
-        <img src={logo} className="App-logo" alt="logo" />
-        <a className="miaImage App-link"
-          href="https://drive.google.com/file/d/10KgleMNNF1I1RxsqSb2RRAPygxwqyXQG/view"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Conocer a Mia
-        </a>
-      </header>
-    </div>
+        <>
+        <Header/>
+        <section class="relleno"></section>
+        <Footer/>
+        </>
   );
 }
 

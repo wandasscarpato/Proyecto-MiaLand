@@ -1,4 +1,63 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+.Header{
+  background-color: #243444;
+  text-align: center;
+  height: 200px;
+}
+.Header img{
+  width: 120px;
+  padding: 1rem;
+}
+.NavBar ul{
+  display: flex;
+  justify-content: center;
+}
+.NavBar ul li{
+  padding: 1rem;
+}
+.NavBar ul li a{
+  color: white;
+}
+/*----------------------FIN HEADER-------------------*/
+.relleno{
+  height: calc(100vh - 198px - 200px);
+}
+/*----------------------FIN SECTION-------------------*/
+footer{
+  color: white;
+  height: 198px;
+}
+footer div:first-child{
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #243444;
+  padding-top: 1rem;
+}
+footer div ul{
+  display: flex;
+  justify-content: center;
+}
+footer div ul li a i{
+  font-size: 30px;
+  padding: 2rem;
+}
+.footerDerechos{
+  background-color: #1d2e3f;
+  padding: 1rem;
+  text-align: center;
+}
+/*----------------------FIN FOOTER-------------------*/
+
+/*.App {
   text-align: center;
 }
 
@@ -41,4 +100,4 @@
 }
 .miaImage{
   margin-top: 4rem;
-}
+}*/
